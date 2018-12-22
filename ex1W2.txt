@@ -1,0 +1,57 @@
+﻿Algoritma & Pseudocode
+
+1. Cara menghitung resultan gaya
+ 
+m =600kg
+a=2 m/s
+EF (resultan gaya) = m (masa benda) x a (percepatan benda)
+
+
+Langkah cara mencaritahu EF atau Resultan gaya dari hukum newton II:
+    • cari tahu dahulu bunyi dari hukum newton II
+    • cari hal-hal yang dikeahui terlebih dahulu
+    • hal-hal yg diketahui adalah: 1. m (masa benda)= 600kg dan a(percepatan benda)= 2m/s
+    • menentukan rumus untuk menghitung Resultan gaya, yaitu masa benda (m) dikalikan dengan percepatan benda (a)
+    • masukan angka-angka yang diketahui kedalam rumus, m menjadi 600kg, dan a menjadi 2m/s.
+    • Hitung perkalian 600 dikalikan dengan 2
+    • maka akan terlihat hasilnya yg merupakan besaran resultan gaya dari Hukum II Newton
+
+2. Tentukan tahun kabisat
+hal-hal yg perlu diketahui tentang tahun kabisat adalah dimana jika tangal habis dibagi 4
+
+→ jika tanggal habis dibagi 100
+
+→ jika habis dibagi 100 dan 400
+
+Algoritma dalam menghitung tahun kabisat:
+    • pertama kita harus mengetahui terlebih dahulu betuk tahun kabisat, yaitu 	dimana bulan februari dalam tahun itu sampai pada tanggal 29.
+    • beberapa kriteria lain dari tahun kabisat pada kalender Gregorian adalah tahun yang akan habis jika dibagi 4 dan tidak habis jika dibagi dengan 100.
+    • dan kriteria kedua adalah dimana tahun kabisat akan habis juka dibagi 4, habis juga jika dibagikan dengan 100, serta 400 maka termasuk dalam tahun kabisat.
+    • 
+
+
+
+3. Foxie mencuci baju
+
+Foxie ingin mencuci baju → masukan 1 baju ke mesin cuci → apakah baju di mesin cuci sudah 20? jika belum tambahkan kembali 1 baju → pengulangan terjadi hingga baju yg dimasukkan mencapai 20 → ketika baju sudah 20 maka mesin cuci bisa dinyalakan
+
+Algoritma dalam Menghitung baju kedalam mesin cuci:
+    • pertama kita harus memahami terlebih dahulu persyaratan untuk memulai menyalakan mesin cuci
+    • disini Foxie harus memasukkan 20 baju terlebih dahulu agar mesin cuci dinyalakan
+    • langkah pertama adalah masukan 1 baju terlebih dahulu, lalu cek apakah baju didalam mesin cuci sudah 20. jika belum 20, maka lanjutkan ke step ini lagi.
+    • Masukan lagi 1 baju kedalam mesin cuci, baju dalam mesin cuci sekarang ada 2. berarti belum bisa menjalankan mesin cuci karena baju dalam mesin cuci belum sampai 20. maka ulangi step sebelumnya.
+    • Masukan lagi 1 baju, maka baju didalam mesin cuci akan menjadi 3, belum juga sampai 20, maka ulangi step sebelumnya.
+    • Sekarang baju sudah mencapai 20, artinya mesin cuci akan dinyalakan oleh Foxie.
+
+4.
+guru berkeliling thd 40 siswa
+
+kuku pendek → yes → puji (true)
+kuku panjag →no→ hukum hukum (false)
+
+algoritma pengecekan kuku oleh guru:
+    • seorang guru akan mengecek kuku 40 anak di kelasnya
+    • guru pergi ke anak pertama untuk mengecek kukunya, apakah panjang atau pendek. 
+    • Jika panjang guru akan memberikan pujian, lalu guru akan berkeliling lagi
+    • jika panjang guru akan memberikan teguran berupa hukuman kepada anak tersebut, lalu guru akan berkeliling lagi
+    • guru akan berhenti memeriksa ketika guru sudah memeriksa ke 40  anak muridnya
