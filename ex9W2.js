@@ -1,25 +1,22 @@
 /* soal 1 */
 
-function shoutOut (){
-    console.log('Hello Function!')
+var str = ''
+function shoutOut (str){
+return str  
 }
-
-shoutOut()
-}
-
+console.log(shoutOut('hello function!'))
 /* Soal 2 */
 
 function calculateMultiply (a, b) {
   
-    var num1 = a
-    var num2 = b
+  var num1 = a
+  var num2 = b
+  var hasilPerkalian = num1 * num2
   
-    var hasilPerkalian = num1 * num2
-    
-    return(hasilPerkalian)  
-  }
-  
-  calculateMultiply (5, 6)
+  return(hasilPerkalian)  
+}
+
+console.log(calculateMultiply (5, 6))
 
   /* Soal 3 */
 
@@ -35,4 +32,4 @@ function calculateMultiply (a, b) {
     return(fullSentence)
   }
   
-  processSentences ('Agus', '30', 'jln. Malioboro, Jogjakarta', 'gaming')
+  console.log(processSentences ('Agus', '30', 'jln. Malioboro, Jogjakarta', 'gaming'))

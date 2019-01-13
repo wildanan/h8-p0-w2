@@ -3,31 +3,39 @@
  /* bintang 1 */
 
  console.log('Bintang 5')
- for (var row1 = 0; row1 < 1; row1++) {
-   //console.log('*')
- }
-   for (var rowb = 0; rowb < row1; rowb++) {
-     console.log('*')  
- }
- }
+var bintang = ''
+var rows1 = 5
+for (var i = 0; i < rows1 ; i++){
+  bintang += '*'
+  bintang += '\n'
+} 
+console.log(bintang)
+
 
  /* Bintang 5 deret */
 
  console.log('Bintang 5')
- for (var row1 = 5; row1 < 5; row1++) {
-   //console.log('*')
- }
-   for (var rowb = 0; rowb < row1; rowb++) {
-     console.log('*****')
+var bintang = ''
+var rows2 = 5
+for (var i = 0; i < rows2 ; i++){
+  for (var j = 0; j < rows2; j++){
+    bintang += '*'
+  }
+  bintang += '\n'
+} 
+console.log(bintang)
  
- /* bintang pramid */
+ /* bintang tangga */
 
  console.log('Bintang 5')
- for (var row1 = 0; row1 < 5; row1++) {
-   console.log(' ')
-   for (var rowb = 0; rowb <= row1; rowb++) {
-    console.log("*")
-   }
- }
+var bintang = ''
+var rows3 = 5
+for (var i = 0; i < rows3 ; i++){
+  for (var j = 0; j <= i; j++){
+    bintang += '*'
+  }
+  bintang += '\n'
+} 
+console.log(bintang)
 
   
