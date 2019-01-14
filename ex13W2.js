@@ -1,26 +1,20 @@
-function xo(str){
-    // var x = x.lenght
-    // var o = o.lenght
+function xo (str){
+  var o = 0
+  var x = 0
+  var banding = false
   
-    var str = x + o
-  
-    while (xo.length) {
-      if (x = o) {
-        console.log(true)
-      } else if (x > o) {
-        console.log(false) 
-      } else if(x < o) {
-        console.log(false)
-      } else {
-        console.log('tetot')
-      }
-    }
-  
-    return str
+  for (var i = 0; i < str.length; i++){
+    if (str[i] === 'x'){
+      o++
+    } else if (str[i] === 'o'){
+      x++
+    } 
   }
-  
-console.log(xo('xoxoxo'));
-console.log(xo('oxooxo'));
-console.log(xo('oxo'));
-console.log(xo('xxxooo'));
-console.log(xo('xoxooxxo'));
+  return x === o; banding = true
+  }
+  // TEST CASES
+  console.log(xo('xoxoxo')); // true
+  console.log(xo('oxooxo')); // false
+  console.log(xo('oxo')); // false
+  console.log(xo('xxxooo')); // true
+  console.log(xo('xoxooxxo')); // true
