@@ -16,6 +16,15 @@ Langkah cara mencaritahu EF atau Resultan gaya dari hukum newton II:
     • Hitung perkalian 600 dikalikan dengan 2
     • maka akan terlihat hasilnya yg merupakan besaran resultan gaya dari Hukum II Newton
 
+1.b. Pseudocode
+
+STORE ‘masaBenda’ with 600 kg
+STORE ‘percepatanBenda’ with 2 m/s
+STORE ‘resultanGaya’ with any value
+CALCULATE ‘masaBEnda’ multiplication with ‘percepatanBenda’
+SET ‘resultanGaya’ value with calculation result
+DISPLAY ‘resultanGaya
+
 2. Tentukan tahun kabisat
 hal-hal yg perlu diketahui tentang tahun kabisat adalah dimana jika tangal habis dibagi 4
 
@@ -27,7 +36,15 @@ Algoritma dalam menghitung tahun kabisat:
     • pertama kita harus mengetahui terlebih dahulu betuk tahun kabisat, yaitu 	dimana bulan februari dalam tahun itu sampai pada tanggal 29.
     • beberapa kriteria lain dari tahun kabisat pada kalender Gregorian adalah tahun yang akan habis jika dibagi 4 dan tidak habis jika dibagi dengan 100.
     • dan kriteria kedua adalah dimana tahun kabisat akan habis juka dibagi 4, habis juga jika dibagikan dengan 100, serta 400 maka termasuk dalam tahun kabisat.
-    • 
+
+2.b. Pseudocode
+INPUT ‘tahun’
+IF ‘tahun’ modulus 4 equal 0
+	THEN
+	DISPLAY ‘tahun kabisat’
+ELSE
+	DISPLAY ‘bukan tahun kabisat’
+END FOR
 
 
 
@@ -43,8 +60,17 @@ Algoritma dalam Menghitung baju kedalam mesin cuci:
     • Masukan lagi 1 baju, maka baju didalam mesin cuci akan menjadi 3, belum juga sampai 20, maka ulangi step sebelumnya.
     • Sekarang baju sudah mencapai 20, artinya mesin cuci akan dinyalakan oleh Foxie.
 
-4.
-guru berkeliling thd 40 siswa
+3.b. Pseudocode
+STORE ‘pakaian’ into ‘mesinCuci’ with 0
+WHILE ‘pakaian’ < 20
+ADD ‘pakaian’ by 1
+	IF ‘pakaian’ EQUAL 20
+	THEN
+	TURN ON ‘mesinCuci’
+	ELSE
+	BACK to WHILE
+
+4. guru berkeliling thd 40 siswa
 
 kuku pendek → yes → puji (true)
 kuku panjag →no→ hukum hukum (false)
@@ -55,3 +81,12 @@ algoritma pengecekan kuku oleh guru:
     • Jika panjang guru akan memberikan pujian, lalu guru akan berkeliling lagi
     • jika panjang guru akan memberikan teguran berupa hukuman kepada anak tersebut, lalu guru akan berkeliling lagi
     • guru akan berhenti memeriksa ketika guru sudah memeriksa ke 40  anak muridnya
+
+4.b. Pseudocode
+STORE ‘siswa’ with 40
+CHECK ‘siswa’ by 1
+	IF ‘siswa’ EQUAL ‘kukuPanjang’ THEN
+		DISPLAY ‘dihukum’
+	ELSE
+		DISPLAY ‘dipuji’
+	BACK to WHILE
